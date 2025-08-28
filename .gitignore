@@ -1,0 +1,26 @@
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# OS generated files
+*.DS_Store
+Thumbs.db
+
+# IDE settings
+*.dbmdl
+*.jfm
+*.pdb
+
+# Logs
+*.log
+
+# Others
+node_modules/
+wwwroot/lib/
