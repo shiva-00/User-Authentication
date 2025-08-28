@@ -1,26 +1,38 @@
+# .gitignore for ASP.NET Core / Visual Studio projects
+
 # Build results
-bin/
-obj/
+[Bb]in/
+[Oo]bj/
 [Bb]uild/
-[Ll]ogs/
 
 # Visual Studio files
 .vs/
-*.user
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# OS generated files
-*.DS_Store
-Thumbs.db
+# Rider / JetBrains
+.idea/
 
-# IDE settings
-*.dbmdl
-*.jfm
-*.pdb
+# Publish / package output
+*.publish.xml
+*.pubxml
+*.publishproj
+artifacts/
 
 # Logs
 *.log
 
-# Others
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Node
 node_modules/
+
+# IDE settings
+.vscode/
+
+# Static library installs (optional)
 wwwroot/lib/
